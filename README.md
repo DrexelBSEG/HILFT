@@ -20,8 +20,8 @@ This repository contains various code used in the HILFT project. The structure o
 - `Data_Check`: This folder contains the code related to data checking.
 - `KPI_Analysis`: This folder contains the code related to final data analysis using various KPIs.
 - `Postprocess`: This folder contains the code related to data postprocessing.
+- `Testbeds`: This folder contains the code related to the software testbeds.
 - `Uncertainty_Analysis`: This folder contains the code related to uncertainty analysis.
-- `Testbed`: This folder contains the code related to the software testbed.
 
 Feel free to explore each folder to find more information about the code and its purpose.
 

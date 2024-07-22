@@ -1,0 +1,177 @@
+LABEL,DESCRIPTION,UNIT,UNCERTAINTY
+oau_out_rtd,"Outdoor air temperature",DEG_F,0.2
+oa_temp_sim,"Outdoor air temperature (simulated)",DEG_F,NA
+oau_t_out_sp_f,"Outdoor air temperature setpoint for outdoor temperature emulation, same as oa_temp_sim",DEG_F,NA
+oau_rh,"Outdoor air relative humidity",PERCENT_RH,2
+oa_w_sim,"Outdoor air humidity ratio (simulated)",KiloGM-PER-KiloGM,NA
+oau_rh_out_sp_per,"Outdoor air humidity ratio setpoint for outdoor humidity emulation, same as oa_w_sim",KiloGM-PER-KiloGM,NA
+indoor_p,"Local air pressure",PSI,0.2
+ch1_power,"Power consumption of Chiller1",W,1 % of reading
+ch1_on,"On/off control signal for Chiller1 (0 - off, 1 - on)",-,NA
+pump1_power,"Power consumption of Pump 1 (Chiller 1 water pump)",W,1.2 % of reading
+ch1_f_e,"Flow rate of the PG through the evaporator in Chiller1",GAL_US-PER-MIN,5 % of reading
+ch1_e_in_rtd,"Temperature of the PG returning to both Chiller1 and Chiller2",DEG_F,0.21
+ch1_e_out_rtd,"Temperature of the PG leaving the evaporator in Chiller1",DEG_F,0.2
+ch1_t_sp_f,"Temperature setpoint of the PG leaving the evaporator in Chiller1",DEG_F,NA
+ch2_power,"Power consumption of Chiller2",W,1 % of reading
+ch2_on,"On/off control signal for Chiller2 (0 - off, 1 - on)",-,NA
+pump2_power,"Power consumption of Pump 2 (Chiller 2 water pump)",W,2.6 % of reading
+ch2_f_e,"Flow rate of the PG through the evaporator in Chiller2",GAL_US-PER-MIN,3.5 % of reading
+ch2_e_out_rtd,"Temperature of the PG leaving the evaporator in Chiller2",DEG_F,0.2
+ch2_t_sp_f,"Temperature setpoint of the PG leaving the evaporator in Chiller2",DEG_F,NA
+pump4_power,"Power consumption of Pump4 (conderser loop)",W,2.47
+pump4_out_rtd,"Temperature downstream of Pump4",DEG_F,0.21
+ch1_f_c,"Flow rate of the water through the condenser in Chiller1",GAL_US-PER-MIN,0.54
+ch1_c_out_rtd,"Temperature of the water leaving the condenser in Chiller1",DEG_F,0.2
+ch2_f_c,"Flow rate of the water through the condenser in Chiller1",GAL_US-PER-MIN,0.65
+ch2_c_out_rtd,"Temperature of the water leaving the condenser in Chiller1",DEG_F,0.2
+ts_mode,"Operating mode of the thermal storage tank (0 - off, 1 - discharge, 2 - charge)",-,NA
+ts_meter,"Ice meter reading of the inventory in the thermal storage tank",PERCENT,5
+ts_f,"Flow rate through the thermal storage tank",GAL_US-PER-MIN,1.51 % of reading
+ts_in_rtd,"Temperature of the PG entering the thermal storage tank",DEG_F,0.2
+ts_out_rtd,"Temperature of the PG leaving the thermal storage tank",DEG_F,0.2
+pump3_power,"Power consumption of Pump 3 (secondary loop pump)",W,2.47
+pump3_dp,"Differential pressure across the secondary loop",PSI,0.25 % of reading
+pump3_out_rtd,"Temperature fo the PG downstream of Pump3 (temperature of the PG entering the cooling coils in AHU1 and AHU2)",DEG_F,0.2
+sl_vfd_sp_v,"Differential pressure setpoint for the secondary loop pump (Pump 3)",PSI,NA
+sl_f,"Flow rate in the secondary loop",GAL_US-PER-MIN,0.85
+ahu1_f_sa,"Flow rate of the outdoor air in AHU1",FT3-PER-MIN,10 % of reading
+ahu1_sa_sp_per,"Flow rate setpoint of the outdoor air in AHU1",FT3-PER-MIN,NA
+ahu1_f_ra,"Flow rate of the return airin AHU1",FT3-PER-MIN,10 % of reading
+ahu1_p_down,"Static pressure downstream of AHU1",IN_H2O,0.008
+ahu1_fan_sp_inh2o,"Static pressure setpoint for the supply fan in AHU1",IN_H2O,NA
+ahu1_t_ra,"Temperature of the return air in AHU1",DEG_F,0.2
+ahu1_in_rtd,"Temperature of the mixed air at the inlet of AHU1",DEG_F,0.2
+ahu1_cc_rtd,"Temperature of the air after the cooling coil in AHU1",DEG_F,0.2
+ahu1_out_rtd,"Temperature of the supply air downstream of AHU1",DEG_F,0.2
+ahu1_cc_sp_f,"Setpoint temperature for the supply air downstream of AHU1",DEG_F,NA
+ahu1_rh_ra,"Relative humidity of the return air in AHU1",PERCENT_RH,2
+ahu1_rh_up,"Relative humidity of the mixed air in AHU1",PERCENT_RH,2
+ahu1_rh_down,"Relative humidity of the supply air downstream of AHU1",PERCENT_RH,2
+ahu1_f_cc,"Flow rate of the PG through the cooling coil in AHU1",GAL_US-PER-MIN,0.25 % of reading
+ahu1_cc_out_rtd,"Temperature of the PG leaving the cooling coil in AHU1",DEG_F,0.2
+v12_pos_c,"Control signal for the position of Valve12 (vavle of the cooling coil in AHU1)",V,NA
+v12_pos_fb,"Feedback signal for the position of Valve12 (vavle of the cooling coil in AHU1)",V,NA
+ahu1_on,"On/off control signal for the AHU1 supply fan",-,NA
+ahu1_fan_power,"Power consumption of the AHU1 supply fan",W,2.47
+ahu1_vfd,"Speed of the AHU1 supply fan",HZ,NA
+d6_pos_c,"Control signal for the position of Damper6 (AHU1 outdoor air damper)",V,NA
+d6_pos_fb,"Feedback signal for the position of Damper6 (AHU1 outdoor air damper)",V,NA
+d5_pos_c,"Control signal for the position of Damper5 (AHU1 recirculate air damper)",V,NA
+d5_pos_fb,"Feedback signal for the position of Damper5 (AHU1 recirculate air damper)",V,NA
+d10_pos_c,"Control signal for the position of Damper10 (AHU1 exhaust air damper)",V,NA
+d10_pos_fb,"Feedback signal for the position of Damper10 (AHU1 exhaust air damper)",V,NA
+vav3_f,"Airflow rate through VAV3",FT3-PER-MIN,10 % of reading
+vav3_d_sp,"Flow setpont for the PI controller for the damper in VAV3",FT3-PER-MIN,NA
+vav3_t_in,"Temperature of the air upstream of VAV3",DEG_F,0.2
+vav3_out_rtd,"Temperature of the air downstream of VAV3",DEG_F,0.2
+d17_pos_c,"Control signal for the position of Damper17 (VAV3 damper)",V,NA
+d17_pos_fb,"Feedback signal for the position of Damper17 (VAV3 damper)",V,NA
+vav3_heat_power,"Power consumption of the electric reheat in VAV3",W,2.47
+vav3_heat_c,"Control signal for the electric reheat in VAV3",V,NA
+zs3_out_rtd,"Temperature of the air downstream of ZN3 (zone temperature)",DEG_F,0.2
+zn3_temp_sim,"Temperature of ZN3 (simulated)",DEG_F,NA
+zs3_qst_sp_f,"Temperature setpoint for sensible load control of ZN3, same as zn3_temp_sim",DEG_F,NA
+zs3_t_sp_f,"Temperature setpont for the air leaving ZN3 (zone temperature setpoint)",DEG_F,NA
+zs3_rh,"Relative humidity of the air downstream of ZN3 (zone relative humidity)",PERCENT_RH,2
+zn3_w_sim,"Humidity ratio of ZN3 (simulated)",KiloGM-PER-KiloGM,NA
+zs3_qlrh_sp_per,"Humidity ratio setpoint for latent load control of ZN3, same as zn3_w_sim",KiloGM-PER-KiloGM,NA
+vav4_f,"Airflow rate through VAV4",FT3-PER-MIN,10 % of reading
+vav4_d_sp,"Flow setpoint for the PI controller for the damper in VAV4",FT3-PER-MIN,NA
+vav4_t_in,"Temperature of the air upstream of VAV4",DEG_F,0.2
+vav4_out_rtd,"Temperature of the air downstream of VAV4",DEG_F,0.2
+d18_pos_c,"Control signal for the position of Damper18 (VAV4 damper)",V,NA
+d18_pos_fb,"Feedback signal for the position of Damper18 (VAV4 damper)",V,NA
+vav4_heat_power,"Power consumption of the electric reheat in VAV4",W,2.47
+vav4_heat_c,"Control signal for the electric reheat in VAV4",V,NA
+zs4_out_rtd,"Temperature of the air downstream of ZN4 (zone temperature)",DEG_F,0.2
+zn4_temp_sim,"Temperature of ZN4 (simulated)",DEG_F,NA
+zs4_qst_sp_f,"Temperature setpoint for sensible load control of ZN4, same as zn4_temp_sim",DEG_F,NA
+zs4_t_sp_f,"Temperature setpont for the air leaving ZN4 (zone temperature setpoint)",DEG_F,NA
+zs4_rh,"Relative humidity of the air downstream of ZN4 (zone relative humidity)",PERCENT_RH,2
+zn4_w_sim,"Humidity ratio of ZN4 (simulated)",KiloGM-PER-KiloGM,NA
+zs4_qlrh_sp_per,"Humidity ratio setpoint for latent load control of ZN4, same as zn4_w_sim",KiloGM-PER-KiloGM,NA
+ahu2_f_sa,"Flow rate of the outdoor air in AHU2",FT3-PER-MIN,10 % of reading
+ahu2_sa_sp_per,"Flow rate setpoint of the outdoor air in AHU2",FT3-PER-MIN,NA
+ahu2_f_ra,"Flow rate of the return airin AHU2",FT3-PER-MIN,10 % of reading
+ahu2_p_down,"Static pressure downstream of AHU2",IN_H2O,0.008
+ahu2_fan_sp_inh2o,"Static pressure setpoint for the supply fan in AHU2",IN_H2O,NA
+ahu2_t_ra,"Temperature of the return air in AHU2",DEG_F,0.2
+ahu2_in_rtd,"Temperature of the mixed air at the inlet of AHU2",DEG_F,0.2
+ahu2_cc_rtd,"Temperature of the air after the cooling coil in AHU2",DEG_F,0.2
+ahu2_out_rtd,"Temperature of the supply air downstream of AHU2",DEG_F,0.2
+ahu2_cc_sp_f,"Setpoint temperature for the supply air downstream of AHU2",DEG_F,NA
+ahu2_rh_ra,"Relative humidity of the return air in AHU2",PERCENT_RH,2
+ahu2_rh_up,"Relative humidity of the mixed air in AHU2",PERCENT_RH,2
+ahu2_rh_down,"Relative humidity of the supply air downstream of AHU2",PERCENT_RH,2
+ahu2_f_cc,"Flow rate of the PG through the cooling coil in AHU2",GAL_US-PER-MIN,0.25 % of reading
+ahu2_cc_out_rtd,"Temperature of the PG leaving the cooling coil in AHU2",DEG_F,0.2
+v13_pos_c,"Control signal for the position of Valve13 (vavle of the cooling coil in AHU2)",V,NA
+v13_pos_fb,"Feedback signal for the position of Valve13 (vavle of the cooling coil in AHU2)",V,NA
+ahu2_on,"On/off control signal for the AHU2 supply fan",-,NA
+ahu2_fan_power,"Power consumption of the AHU2 supply fan",W,2.47
+ahu2_vfd,"Speed of the AHU2 supply fan",Hz,NA
+d7_pos_c,"Control signal for the position of Damper7 (AHU2 outdoor air damper)",V,NA
+d7_pos_fb,"Feedback signal for the position of Damper7 (AHU2 outdoor air damper)",V,NA
+d8_pos_c,"Control signal for the position of Damper8 (AHU2 recirculate air damper)",V,NA
+d8_pos_fb,"Feedback signal for the position of Damper8 (AHU2 recirculate air damper)",V,NA
+d11_pos_c,"Control signal for the position of Damper11 (AHU2 exhaust air damper)",A,NA
+d11_pos_fb,"Feedback signal for the position of Damper11 (AHU2 exhaust air damper)",V,NA
+vav1_f,"Airflow rate through VAV1",FT3-PER-MIN,10 % of reading
+vav1_d_sp,"Flow setpont for the PI controller for the damper in VAV1",FT3-PER-MIN,NA
+vav1_t_in,"Temperature of the air upstream of VAV1",DEG_F,0.2
+vav1_out_rtd,"Temperature of the air downstream of VAV1",DEG_F,0.2
+d15_pos_c,"Control signal for the position of Damper15 (VAV1 damper)",V,NA
+d15_pos_fb,"Feedback signal for the position of Damper15 (VAV1 damper)",V,NA
+vav1_heat_power,"Power consumption of the electric reheat in VAV1",W,2.47
+vav1_heat_c,"Control signal for the electric reheat in VAV1",V,NA
+zs1_out_rtd,"Temperature of the air downstream of ZN1 (zone temperature)",DEG_F,0.2
+zn1_temp_sim,"Temperature of ZN1 (simulated)",DEG_F,NA
+zs1_qst_sp_f,"Temperature setpoint for sensible load control of ZN1, same as zn1_temp_sim",DEG_F,NA
+zs1_t_sp_f,"Temperature setpont for the air leaving ZN1 (zone temperature setpoint)",DEG_F,NA
+zs1_rh,"Relative humidity of the air downstream of ZN1 (zone relative humidity)",PERCENT_RH,2
+zn1_w_sim,"Humidity ratio of ZN1 (simulated)",KiloGM-PER-KiloGM,NA
+zs1_qlrh_sp_per,"Humidity ratio setpoint for latent load control of ZN1, same as zn1_w_sim",KiloGM-PER-KiloGM,NA
+vav2_f,"Airflow rate through VAV2",FT3-PER-MIN,10 % of reading
+vav2_d_sp,"Flow setpont for the PI controller for the damper in VAV2",FT3-PER-MIN,NA
+vav2_t_in,"Temperature of the air upstream of VAV2",DEG_F,0.2
+vav2_out_rtd,"Temperature of the air downstream of VAV2",DEG_F,0.2
+d16_pos_c,"Control signal for the position of Damper16 (VAV2 damper)",A,NA
+d16_pos_fb,"Feedback signal for the position of Damper16 (VAV2 damper)",A,NA
+vav2_heat_power,"Power consumption of the electric reheat in VAV2",W,2.47
+vav2_heat_c,"Control signal for the electric reheat in VAV2",V,NA
+zs2_out_rtd,"Temperature of the air downstream of ZN2 (zone temperature)",DEG_F,0.2
+zn2_temp_sim,"Temperature of ZN2 (simulated)",DEG_F,NA
+zs2_qst_sp_f,"Temperature setpoint for sensible load control of ZN2, same as zn2_temp_sim",DEG_F,NA
+zs2_t_sp_f,"Temperature setpont for the air leaving ZN2 (zone temperature setpoint)",DEG_F,NA
+zs2_rh,"Relative humidity of the air downstream of ZN2 (zone relative humidity)",PERCENT_RH,2
+zn2_w_sim,"Humidity ratio of ZN2 (simulated)",KiloGM-PER-KiloGM,NA
+zs2_qlrh_sp_per,"Humidity ratio setpoint for latent load control of ZN2, same as zn2_w_sim",KiloGM-PER-KiloGM,NA
+sys_mode,"System mode (0 - setback, 1 - occupied)",-,NA
+grid_signal_type,"Type of grid signal (0 - no signal, 1 - shedding request, 2 - time-of-use by energy use, 3 - time-of-use by peak demand, 4- load modulation)",-,NA
+grid_signal_shed,"Shedding request (0 - no request, 1 - request)",-,NA
+grid_signal_price,"Time-of-use price",USD-PER-KiloW-HR or USD-PER-KiloW,NA
+ahu1_fr_frMode,"Modulation signal of AHU1 (0 - no modulation, 1 - modulation)",-,NA
+ahu1_fr_basePower,"Baseline power for AHU1 modulation",W,NA
+ahu1_fr_sp_w,"Target delta power for AHU1 modulation",W,NA
+ahu2_fr_frMode,"Modulation signal of AHU2 (0 - no modulation, 1 - modulation)",-,NA
+ahu2_fr_basePower,"Baseline power for AHU2 modulation",W,NA
+ahu2_fr_sp_w,"Target delta power for AHU2 modulation",W,NA
+occ##_gender,"Occupant##'s gender (0 female, 1 male)",-,NA
+occ##_accept_low,"Occupant##'s thermal acceptability lower bound",-,NA
+occ##_accept_up,"Occupant##'s thermal acceptability upper bound",-,NA
+occ##_zn,"Occupant##'s zone",-,NA
+occ##_pres,"Occupant##'s presense in the office (0 out of office, 1  in the office)",-,NA
+occ##_loc_x,"Occupant##'s location x coordinate in the zone",m,NA
+occ##_loc_y,"Occupant ##'s location y coordinate in the zone",m,NA
+occ##_sensation,"Occupant ##'s thermal sensation (-3 to 3)",,NA
+occ##_comfort,"Occupant ##'s comfort (-1 cool, 0 neutral, 1 warm)",-,NA
+occ##_met,"Occupant##'s metabolic rate",-,NA
+occ##_clo,"Occupant ##'s clothing level",clo,NA
+occ##_ph,"Occupant##'s personal heater status (0 off, 1 on)",-,NA
+occ##_ph_power,"Occupant##'s personal heater power",W,NA
+occ##_pf,"Occupant##'s personal fan status (0 off, 1 on)",-,NA
+occ##_pf_power,"Occupant##'s personal fan power",W,NA
+occ##_spt,"Occupant##'s setpoint change",DEG_F,NA
+occ##_drink,"Occupant##'s drinking behavior (-1 cold drink, 0 no drink, 1 hot drink)",-,NA
+occ##_act,"Occupant##'s activity level (0 sitting, 1 walking)",-,NA

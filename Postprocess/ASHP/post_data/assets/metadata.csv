@@ -1,0 +1,45 @@
+LABEL,DESCRIPTION,UNIT,UNCERTAINTY
+id_power,"Indoor unit power",W,0.5% of reading
+od_power,"Outdoor unit power",W,0.5% of reading
+oa_temp,"Measured outdoor drybulb temperature",DEG_F,0.8
+oa_temp_dp,"Measured outdoor dewpoint temperature",DEG_F,0.7
+sa_temp,"Supply air drybulb temperature",DEG_F,0.8
+sa_temp_dp,"Supply air dewpoint temperature",DEG_F,0.7
+zn_temp,"Measured indoor drybulb temperature",DEG_F,0.8
+zn_temp_dp,"Measured indoor dewpoint temperature",DEG_F,0.7
+sa_flow,"Indoor air flowrate at standard air density (0.075 lbm/ft3) in cubic feet per minute",FT3-PER-MIN,3% of reading
+local_pres,"Zone barometric pressure",IN_H2O,0.004
+ref_flow,"Measured refrigerant flowrate",lbm_per_min,1% of reading
+oa_temp_sim,"Simulated outdoor drybulb temperature",DEG_F,NA
+oa_temp_dp_sim,"Simulated outdoor dewpoint temperature corrected by local barometric pressure",DEG_F,NA
+oa_temp_spt_emu,"Outdoor drybulb temperature setpoint for outdoor emulation, equivalent to oa_temp_sim",DEG_F,NA
+oa_temp_dp_spt_emu,"Outdoor dewpoint temperature setpoint for outdoor emulation, equivalent to oa_temp_dp_sim",DEG_F,NA
+zn_temp_cspt,"Indoor drybulb cooling setpoint",DEG_F,NA
+zn_temp_hspt,"Indoor drybulb heating setpoint",DEG_F,NA
+zn_temp_sim,"Simulated indoor drybulb temperature",DEG_F,NA
+zn_temp_dp_sim,"Simulated indoor dewpoint temperature corrected by local barometric pressure",DEG_F,NA
+zn_temp_spt_emu,"Indoor drybulb temperature setpoint for indoor emulation, equivalent to zn_temp_sim",DEG_F,NA
+zn_temp_dp_spt_emu,"Indoor dewpoint temperature setpoint for indoor emulation, equivalent to zn_temp_dp_sim",DEG_F,NA
+stat,"Status (0 setback, 1 occupied)",-,NA
+stg,"Stage (0 off, 1  low speed, 2 high speed)",-,NA
+grid_signal_type,"Grid signal type (0 no signal, 1 shedding request, 2 time-of-use by energy use, 3 time-of-use by peak demand)",-,NA
+grid_signal_shed,"Grid signal shedding request (0 no request, 1 request)",-,NA
+grid_signal_price,"Grid signal time-of-use price",USD-PER-KiloW-HR or USD-PER-KiloW,NA
+occ##_gender,"Occupant##'s gender (0 female, 1 male)",-,NA
+occ##_accept_low,"Occupant##'s thermal acceptability lower bound",-,NA
+occ##_accept_up,"Occupant##'s thermal acceptability upper bound",-,NA
+occ##_zn,"Occupant##'s zone",-,NA
+occ##_pres,"Occupant##'s presense in the office (0 out of office, 1  in the office)",-,NA
+occ##_loc_x,"Occupant##'s location x coordinate in the zone",M,NA
+occ##_loc_y,"Occupant ##'s location y coordinate in the zone",M,NA
+occ##_sensation,"Occupant ##'s thermal sensation (-3 to 3)",,NA
+occ##_comfort,"Occupant ##'s comfort (-1 cool, 0 neutral, 1 warm)",-,NA
+occ##_met,"Occupant##'s metabolic rate",met,NA
+occ##_clo,"Occupant ##'s clothing level",clo,NA
+occ##_ph,"Occupant##'s personal heater status (0 off, 1 on)",-,NA
+occ##_ph_power,"Occupant##'s personal heater power",W,NA
+occ##_pf,"Occupant##'s personal fan status (0 off, 1 on)",-,NA
+occ##_pf_power,"Occupant##'s personal fan power",W,NA
+occ##_spt,"Occupant##'s setpoint change",DEG_F,NA
+occ##_drink,"Occupant##'s drinking behavior (-1 cold drink, 0 no drink, 1 hot drink)",-,NA
+occ##_act,"Occupant##'s activity level (0 sitting, 1 walking)",-,NA
